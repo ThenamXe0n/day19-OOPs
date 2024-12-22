@@ -1,0 +1,55 @@
+:root{
+    --text-color:white;
+    --backgrond:black;
+    --primary-font-style: font-family: "Roboto", serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--backgrond);
+    color: var(--text-color);
+    font-family:var(--primary-font-style) ;
+}
+main{
+    margin: 15px;
+}
+body{
+    padding: 0px 15px;
+    font-family:var(--primary-font-style) ;
+}
+p{
+  font-size: 1.2rem;
+}
+ul{
+  padding: 1rem;
+}
+li{
+  font-size: 1rem;
+}
+table {
+    border: 1px solid black;
+    margin: 15px;
+    border-collapse: collapse;
+    width: 70vw;
+    margin: auto;
+  }
+  th,
+  td,
+  tr {
+    border: 2px solid green;
+    padding: 15px 5px;
+    border-collapse: collapse;
+  }
+
+  #poster{
+    width: 500px;
+    object-fit: fill;
+    margin: auto;
+    height: 300px;
+  }
+  #poster-container{
+    display: flex;
+    background-color: #532b69;
+    justify-content: center;
+  }
