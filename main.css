@@ -1,55 +1,71 @@
-:root{
-    --text-color:white;
-    --backgrond:black;
-    --primary-font-style: font-family: "Roboto", serif;
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orbitron:wght@400..900&family=Ysabeau+SC:wght@1..1000&display=swap");
+:root {
+  --text-color: white;
+  --backgrond: black;
+  --primary-font-style: "Roboto", serif;
+  --bg-nav: white;
+  --handwritten: "Great Vibes", serif;
+  --robotic: "Ysabeau SC", serif;
+  --cyperText: "Orbitron", serif;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: var(--backgrond);
-    color: var(--text-color);
-    font-family:var(--primary-font-style) ;
+.tagline {
+  font-family: var(--cyperText);
+  text-align: center;
 }
-main{
-    margin: 15px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  color: var(--text-color);
+  font-family: var(--primary-font-style);
 }
-body{
-    padding: 0px 15px;
-    font-family:var(--primary-font-style) ;
+main {
+  margin: 15px;
 }
-p{
+body {
+  padding: 0px 15px;
+  background-color: var(--backgrond);
+  font-family: var(--primary-font-style);
+}
+p {
   font-size: 1.2rem;
 }
-ul{
+ul {
   padding: 1rem;
 }
-li{
+li {
   font-size: 1rem;
 }
 table {
-    border: 1px solid black;
-    margin: 15px;
-    border-collapse: collapse;
-    width: 70vw;
-    margin: auto;
-  }
-  th,
-  td,
-  tr {
-    border: 2px solid green;
-    padding: 15px 5px;
-    border-collapse: collapse;
-  }
+  border: 1px solid black;
+  margin: 15px;
+  border-collapse: collapse;
+  width: 70vw;
+  margin: auto;
+}
+th,
+td,
+tr {
+  border: 2px solid green;
+  padding: 15px 5px;
+  border-collapse: collapse;
+}
 
-  #poster{
-    width: 500px;
-    object-fit: fill;
-    margin: auto;
-    height: 300px;
-  }
-  #poster-container{
-    display: flex;
-    background-color: #532b69;
-    justify-content: center;
-  }
+#poster {
+  width: 500px;
+  object-fit: fill;
+  margin: auto;
+  height: 300px;
+}
+#poster-container {
+  display: flex;
+  background-color: #532b69;
+  justify-content: center;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
